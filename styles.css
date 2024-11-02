@@ -1,0 +1,195 @@
+@media (max-width:700px) {
+    form {
+        width: 100%;
+        height: fit-content;
+    }
+    ul {
+        height: 400px;
+    }
+}
+
+* {
+        font-family: "Arima", "Playwrite England SemiJoined";
+}
+body {
+    background-color: #1a1a1a;
+}
+
+/*Code for the Header*/
+#header {
+    display: grid;
+    grid-template-columns:auto 300px;
+    align-items: center;
+    background-color: #343a40;
+    color: #f8f9fa;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+}
+#nav-bar {
+    align-items: end;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: end;
+}
+.header-title {
+    display: grid;
+    grid-template-columns: 20px auto;
+    align-items: center;
+    gap: 100px;
+}
+.nav-link {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    color: #f8f9fa;
+}
+.header-img {
+    height: 70px;
+}
+/*Code for the main*/
+h2 {
+    text-align: center;
+    color: white;
+}
+hr {
+    border-radius: 2px solid black;
+}
+
+/*Code for the video*/
+iframe {
+    display: flex;
+    width: 560px;
+    height: 315px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*Code for the pricing*/
+.pricing-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: gray;
+
+}
+.container-pricing {
+    width: 100%;
+    height: 660px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+
+.title-pricing {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid black;
+    color: black;
+}
+.price {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.price-btn {
+    display: grid;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e63946;
+    color: white;
+}
+.price-btn :hover{
+    background-color: #ffcc00;
+}
+
+ul {
+    height: 200px;
+    list-style-type: none;
+    padding: 10px ;
+    text-align: center;
+}
+
+.description-pricing {
+    width: 100%;
+    height: fit-content;
+}
+
+/*Code for the form*/
+form {
+    align-items: center;
+    width: 700px;
+    height: fit-content;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+form p {
+    align-items: center;
+    text-align: left;
+    width: 95%;
+    height: 30px;
+    margin-left: 10px;
+    color: white;
+}
+input {
+    width: 95%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-input {
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    align-items: center;
+}
+
+#submit {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e63946;
+    color: white;
+}
+
+/*Code for the footer*/
+footer {
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    background-color: #1a1a1a;
+    color: #f8f9fa;
+}
+
+.footer-link{
+    display: grid;
+    grid-template-columns:60px 60px 60px;
+    align-items: center;
+    width: 100%;
+}
+footer a {
+    margin: auto;;
+    color: white;
+
+}
+.copyright{
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
